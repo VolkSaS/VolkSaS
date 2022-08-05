@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Блочная вёрстка</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+     <body>
+<div id="header"></div>
+<div id="main"></div>
+<div id="footer"></div>
+
+     </body>
+</html>
+
+body{
+background-color: gray;
+display: flex;
+}
+#header{
+	background-color: #fff123;
+}
+.h1{
+	font-size: 30px;
+	color: #453;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#header{
+	background-color: #126b6a;
+	height: 20vh;
+	width: 33%;
+}
+#main{
+	background-color: #51ede4;
+	height: 60vh;
+	width: 33%;
+}
+#footer{
+	background-color: #126b6a;
+	height: 20vh;
+	width: 33%;
+}
